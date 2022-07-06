@@ -8,36 +8,96 @@ body {
     padding: 0;
 }
 
-h1 {
-    font-size: 50px;
-    color: white;
-}
-
-p {
-    font-size: 20px;
-    color: white;
-}
-
 .link-button {
     text-decoration: none;
-    background-color: tomato;
+    background-color: orange;
     color: white;
-    font-weight: 700;
+    font-size: 50;
     padding: 10px 40px;
     border-radius: 10px;
+
 
 }
 
 .heading-contents {
     padding: 180px;
     text-align: center;
+    color: white;
 }
 
 .header-part {
-    background-image: url("images/donation6.jpg");
+    background-image: url("images/donation9.jpg");
     background-repeat: no-repeat;
     height: 90vh;
     background-size: cover;
+}
 
+section {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.heading-contents h1 {
+    font-size: 50px;
+}
+
+.heading-contents p {
+    font-size: 20px;
+}
+
+
+.Donate-Us {
+    text-align: center;
+    padding: 50px;
+}
+
+.Donate-Us h1 {
+    font-size: 50px;
+
+}
+
+.Donate-Us p {
+    font-size: 20px;
+    margin-top: 30px;
+
+}
+
+.flexible-container {
+    margin-left: 10%;
+    display: flex;
+    font-weight: 10px;
+    padding-top: 15px;
+
+}
+
+
+.flexible-container>div {
+    background-color: #C0C0C0;
+    margin: 10px;
+    padding: 48px;
+    font-size: 40px;
+    text-align: center;
+}
+
+#extra {
+    border-color: red;
+    border-style: solid;
+}
+
+.another-amount {
+    color: grey;
+    padding-top: 30px;
+    padding-bottom: 10px;
+
+}
+
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 2.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
 
 }
