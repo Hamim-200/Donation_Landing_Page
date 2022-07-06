@@ -15,8 +15,6 @@ body {
     font-size: 50;
     padding: 10px 40px;
     border-radius: 10px;
-
-
 }
 
 .heading-contents {
@@ -45,7 +43,6 @@ section {
     font-size: 20px;
 }
 
-
 .Donate-Us {
     text-align: center;
     padding: 50px;
@@ -53,13 +50,11 @@ section {
 
 .Donate-Us h1 {
     font-size: 50px;
-
 }
 
 .Donate-Us p {
     font-size: 20px;
     margin-top: 30px;
-
 }
 
 .flexible-container {
@@ -67,9 +62,9 @@ section {
     display: flex;
     font-weight: 10px;
     padding-top: 15px;
+    font-size: 50px;
 
 }
-
 
 .flexible-container>div {
     background-color: #C0C0C0;
@@ -99,5 +94,56 @@ hr {
     margin-right: auto;
     border-style: inset;
     border-width: 1px;
+}
+
+.create-cart {
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+.donate-plan {
+    text-align: center;
+    padding: 30px;
+}
+
+.donate-plan h1 {
+    font-size: 50px;
+}
+
+.donate-plan p {
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.cart-description {
+    width: 270px;
+    text-align: center;
+    border: 1px solid gray;
+    padding: 25px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.cart1 {
+    background-color: cadetblue;
+}
+
+.cart2 {
+    background-color: chocolate;
+}
+
+.cart3 {
+    background-color: coral;
+}
+
+.package-descript-text {
+    text-align: justify
+}
+
+.icon img {
+    width: 60px;
 
 }
