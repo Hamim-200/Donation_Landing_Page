@@ -12,7 +12,7 @@ body {
     text-decoration: none;
     background-color: orange;
     color: white;
-    font-size: 50;
+    font-weight: 700;
     padding: 10px 40px;
     border-radius: 10px;
 }
@@ -125,6 +125,8 @@ hr {
     padding: 25px;
     border-radius: 10px;
     margin-top: 10px;
+    margin-bottom: 50px;
+
 }
 
 .cart1 {
@@ -146,4 +148,69 @@ hr {
 .icon img {
     width: 60px;
 
+}
+
+h1 {
+    font-size: 50px;
+}
+
+section {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.half-width {
+    width: 50%;
+    padding-left: 5%;
+}
+
+.half-width img {
+    width: 65%;
+    border: 3px solid black;
+    box-shadow: 5px 5px 10px gray;
+}
+
+.update-info {
+    text-align: center;
+}
+
+.submit-box {
+
+    width: 50%;
+    margin-left: 250px;
+    padding: 86px;
+    background-color: wheat;
+}
+
+
+.update-info h1 {
+    font-size: 50px;
+}
+
+.update-info p {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+
+.from {
+    padding: 52px, 0px;
+    padding-left: 445px;
+    padding-top: 27px;
+    padding-bottom: 21px;
+    margin-top: 85px;
+    margin-bottom: 45px;
+}
+
+.email-seting {
+    padding: 18px;
+    font-size: 28px;
+    padding-left: 60px;
+    padding-right: 60px;
+    background-color: orangered;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    margin-left: -5px;
 }
